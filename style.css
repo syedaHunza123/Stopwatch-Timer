@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url('./stopwatch.webp');
+    background-size: 100%;
+  }
+  .stopwatch {
+    text-align: center;
+    align-items:center;
+    color: #fff;
+    background-color: rgb(6, 6, 96);
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(18, 8, 205, 0.1);
+    border-radius: 30px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  #display {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    font-size: 1em;
+    margin: 5px;
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px 0;
+    max-height: 150px;
+    overflow-y: auto;
+  }
+  .stopwatch .dis1{
+    box-shadow: 10% 10%;
+  }
